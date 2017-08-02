@@ -10,10 +10,10 @@ Pod::Spec.new do |spec|
       "Mike Brown" => 'mb@duo.com'
   }
   spec.social_media_url = "https://twitter.com/duo_labs"
-  spec.osx.deployment_target = "10.11"
+  spec.osx.deployment_target = "10.10"
   spec.requires_arc = true
   spec.source = {
-      git: "https://github.com/duosecurity/duo_api_swift.git",
+      git: "https://github.com/valden/duo_api_swift.git",
       tag: spec.version,
       submodules: true
   }
